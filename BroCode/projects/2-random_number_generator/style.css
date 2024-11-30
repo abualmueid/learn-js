@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+
+#rollBtn {
+    background-color: bisque;
+    font-size: 3em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color .25s;
+}
+
+#rollBtn:hover {
+    cursor: pointer;
+    background-color: rgb(248, 201, 143);
+}
+
+.label {
+    font-size: 3em;
+}
