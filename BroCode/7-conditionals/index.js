@@ -1,4 +1,3 @@
-
 let submitBtn = document.getElementById("submitBtn");
 let h3 = document.getElementById("h3");
 
