@@ -3,7 +3,7 @@ let label2 = document.getElementById("label2");
 let label3 = document.getElementById("label3");
 let rollBtn = document.getElementById("rollBtn");
 
-let min = 1; 
+let min = 1;
 let max = 6
 let randomNum;
 
