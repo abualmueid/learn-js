@@ -34,7 +34,7 @@ label {
     border: 1px solid black;
     font-size: 1.1em;
     background-color: rgb(123, 221, 188);
-    transition: background-color .25s;
+    /* transition: background-color .25s; */
 }
 
 #submitBtn:hover {
