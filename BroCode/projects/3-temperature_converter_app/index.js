@@ -1,7 +1,8 @@
 const inputTemp = document.getElementById("inputTemp");
-const outputTemp = document.getElementById("outputTemp");
+let outputTemp = document.getElementById("outputTemp");
 const toFahrenheit = document.getElementById("toFahrenheit");
 const toCelsius = document.getElementById("toCelsius");
+let test = document.getElementById("test");
 
 function convert() {
     let temp;
@@ -16,5 +17,6 @@ function convert() {
         outputTemp.textContent = temp.toFixed(1) + "°F";
     } else {
         outputTemp.textContent = "Select a unit!";
+        
     }
 }
