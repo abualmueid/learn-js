@@ -11,6 +11,7 @@ function convert() {
         temp = Number(inputTemp.value);
         temp = (temp - 32) * 5/9;
         outputTemp.textContent = temp.toFixed(1) + "°C";
+        outputTemp.textContent = "to Celsius selected";
     } else if(toFahrenheit.checked) {
         temp = Number(inputTemp.value);
         temp = temp * 9/5 + 32;
