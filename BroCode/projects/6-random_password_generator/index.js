@@ -26,11 +26,11 @@ function generatePassword(passwordLength, includeLowercase, includeUppercase, in
     return password;
 }
 
-const passwordLength = 10;
-const includeLowercase = false;
-const includeUppercase = false;
-const includeNumbers = false;
-const includeSymbols = false;
+const passwordLength = 12;
+const includeLowercase = true;
+const includeUppercase = true;
+const includeNumbers = true;
+const includeSymbols = true;
 
 const password = generatePassword(passwordLength, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
 
