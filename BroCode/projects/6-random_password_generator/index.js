@@ -16,15 +16,21 @@ function generatePassword(passwordLength, includeLowercase, includeUppercase, in
         const randomIndex = Math.floor(Math.random() * allowedChars.length);
         password += allowedChars[randomIndex]; 
     }
+
+    if(allowedChars.length === 0){
+        return "You need to select at least one set of characters!";
+    } else if(passwordLength < 12){
+        return "Password length must be at least 12 chars!";
+    } 
     
     return password;
 }
 
-const passwordLength = 12;
-const includeLowercase = true;
-const includeUppercase = true;
-const includeNumbers = true;
-const includeSymbols = true;
+const passwordLength = 10;
+const includeLowercase = false;
+const includeUppercase = false;
+const includeNumbers = false;
+const includeSymbols = false;
 
 const password = generatePassword(passwordLength, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
 
