@@ -1,5 +1,3 @@
-
-
 function startTimer() {
     timeoutId = setTimeout(() => window.alert("Timer Started!"), 3000);
 }
