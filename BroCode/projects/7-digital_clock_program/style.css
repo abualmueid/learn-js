@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTIBP0DKn3mYUTDU8KCLZZ9CO_iJVYh3L8SQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsl(0, 100%, .1);
+    width: 100%;
+    text-align: center;
+}
