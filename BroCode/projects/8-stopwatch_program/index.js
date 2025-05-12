@@ -1,5 +1,5 @@
-let display = document.getElementById("display");
-const timerId = null;
+const display = document.getElementById("display");
+let timerId = null;
 let startTime = 0;
 let elapsedTime = 0;
 let currentTime = 0;
@@ -34,8 +34,13 @@ function update() {
 
     let hours = Math.floor(elapsedTime / 3600);
     let minutes = Math.floor((elapsedTime % 3600) / 60);
-    let seconds = Math.floor(((elapsedTime % 3600) % 60) / 60);
-    let milliseconds = Math.floor(((elapsedTime % 3600) % 60) % 60);
+    let seconds = Math.floor(elapsedTime % 60);
+    let milliseconds = Math.floor((elapsedTime * 1000) % 1000);
+
+    hours = hours.toString().padStart(2, '0');
+    minutes = minutes.toString().padStart(2, '0');
+    seconds = seconds.toString().padStart(2, '0');
+    milliseconds = milliseconds.toString().padStart(3, '0');
 
     display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
 }
