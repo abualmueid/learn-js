@@ -29,3 +29,16 @@ A simple functional stopwatch program built with html, css and js. Users can sta
 - **Start**: Hit the 'start' button to start the stopwatch.
 - **Stop**: Hit the 'stop' button to stop the stopwatch.
 - **Reset**: Hit the 'reset' button to reset the stopwatch.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License]().
+
+## Author
+
+**Abu Al Mueid**   
+Here is my [GitHub Profile](https://github.com/abualmueid)
