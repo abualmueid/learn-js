@@ -12,7 +12,7 @@ A simple functional stopwatch program built with html, css and js. Users can sta
 
 ![Stopwatch Demo](stopwatch.png)
 
-## Installaiton
+## Installation
 
 1. Clone the repository
     ```bash
